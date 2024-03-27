@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    font-family: "Lexend Deca", sans-serif;
+    
+}
+header{
+    height: 118px;
+    width: auto;
+    background-color: #FFD900;
+}
+#imgccxp{
+    margin: 27px 0px 28px 58px;
+}
+
+section{
+    display: flex;
+    grid-auto-flow: column 
+}
+#text{
+    background-color: #514988 ;
+    width: 40%;
+    height: 694px;
+    text-align: center;
+}
+#text h1{
+    color: #FFD900 ;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 85.07px;
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 31px;
+}
+#text h3{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36.46px;
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+    margin-top: 5px;
+}
+#text p{
+    font-size: 29px;
+    font-weight: 400;
+    line-height: 35.24px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 60px;
+}
+
+#count video{
+  margin-left: 15px;
+}
+#time {
+    display: grid;
+    grid-auto-flow: column;
+    height: 120px;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 85.07px;
+    text-align: right;
+    color: #514988;
+   width: 800px;
+   margin-top: 20px;
+   margin-bottom: -40px;
+    
+
+  }
+#countText{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36.46px;
+    color: #E33881;
+    margin-left: 40px;
+    margin-bottom: 18px;
+}
+
+#time p{
+    text-align: left;
+    margin-left: 0px;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 85.07px;
+    text-align: left;
+    color: #514988;
+
+}
+footer{
+    display: flex;
+    grid-auto-flow: column;
+    height: 300px;
+}
+
+#diaSemana{
+    width: 49%;
+}
+
+#cards{
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+#diaSemana p{
+font-size: 27px;
+font-weight: 700;
+line-height: 32.81px;
+text-align: center;
+color: #F3C61F;
+margin-top: 20px;
+}
+
+#botao input{
+    width: 596px;
+    height: 148px;
+    top: 903px;
+    left: 1004px;
+    gap: 0px;
+    border-radius: 20px;
+    opacity: 0px;
+    background-color: #514988;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 51.04px;
+    text-align: center;
+    color: #FFFFFF;
+   position: absolute;
+   margin-bottom: 15px;
+
+}
+
