@@ -41,20 +41,31 @@
             </div>
         </div>
     </section>
-    <script src="CCXP22.js" ></script>
     <footer>
         <div id="diaSemana">
             <div><p>AINDA DÁ TEMPO DE GARANTIR O SEU, MAS CORRE!</p></div>
             <div id="cards">
-                <img width="21%" src="imagens/quinta.svg" alt="">
-                <img width="21%"  src="imagens/sexta.svg" alt="">
-                <img width="21%"  src="imagens/sabado.svg" alt="">
-                <img width="21%"  src="imagens/domingo.svg" alt="">
+                <img onclick="selectCard('#quinta')" onmouseover="highligntCard('#quinta')" onmouseout="highligntCard('#quinta')" id="quinta" width="21%" src="imagens/quinta.svg" alt="">
+                <img onclick="selectCard('#sexta')" onmouseover="highligntCard('#sexta')" onmouseout="highligntCard('#sexta')" id="sexta" width="21%"  src="imagens/sexta.svg" alt="">
+                <img onclick="selectCard('#sabado')" onmouseover="highligntCard('#sabado')" onmouseout="highligntCard('#sabado')" id="sabado" width="21%"  src="imagens/sabado.svg" alt="">
+                <img onclick="selectCard('#domingo')" onmouseover="highligntCard('#domingo')" onmouseout="highligntCard('#domingo')" id="domingo" width="21%"  src="imagens/domingo.svg" alt="">
             </div>
         </div>
-        <div id="botao">
-            <input type="button" value="GARANTA O SEU!">
+        <div id = "cadastro">
+            <div id="botao">
+            <button onclick="showSelectedCards()">GARANTA O SEU!</button>
+            </div>
         </div>
     </footer>
+    <div id="form">
+        <form action="https://www.google.com">
+            <input type="email" placeholder="Seu email" required >
+            <input type="submit">
+        </form>
+    </div>
+
+
+    <script src="CCXP22.js" ></script>
+    <script src="main.js"></script>
 </body>
 </html>

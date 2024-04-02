@@ -110,7 +110,7 @@ color: #F3C61F;
 margin-top: 20px;
 }
 
-#botao input{
+#botao button{
     width: 596px;
     height: 148px;
     top: 903px;
@@ -124,8 +124,23 @@ margin-top: 20px;
     line-height: 51.04px;
     text-align: center;
     color: #FFFFFF;
-   position: absolute;
-   margin-bottom: 15px;
+    position: absolute;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
 
+#botao button:hover {
+    background-color:#7a6dd3;
+    box-shadow: 0px 15px 20px #2327537c;
+    transition-duration: 0.5s;
+    color: #303030;
+}
+
+.card-highlight {
+    width: 23%;
+}
+
+.card-selector{
+    border: 5px solid green;
 }
 

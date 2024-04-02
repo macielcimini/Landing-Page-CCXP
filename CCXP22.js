@@ -3,7 +3,7 @@ const hora = document.getElementById("hora");
 const minuto = document.getElementById("minuto");
 const segundo = document.getElementById("segundo");
 
-const lancamento = "25 apr 2024";
+const lancamento = "27 jun 2024";
 
 function countDown() {
   const dataLanc = new Date(lancamento);
@@ -21,7 +21,7 @@ function countDown() {
   segundo.innerHTML = formatoTempo(finalSegundos);
 }
 
-function formatoTempo(tempo) {
+function formatoTempo(tempo) { //função para adicionar o numero zero quando o tempo for menor que zero
   return tempo < 10 ? `0${tempo}` : tempo;
 }
 
